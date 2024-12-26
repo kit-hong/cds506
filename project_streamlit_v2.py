@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+from sklearn.ensemble import AdaBoostClassifier
 
 def label_to_input(category, text):
     days_of_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
